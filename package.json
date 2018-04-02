@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Shut The Cube App",
   "author": "Victor Saly <info@victorsaly.com>",
+  "homepage": "https://github.com/victorsaly/shutTheBox",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --host 0.0.0.0 --inline --progress --config build/webpack.dev.conf.js",
