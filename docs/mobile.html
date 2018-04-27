@@ -1,19 +1,21 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><link rel=apple-touch-icon sizes=180x180 href="static/apple-touch-icon.png?v=Gvkl4PJqqj"><link rel=icon type=image/png sizes=32x32 href="static/favicon-32x32.png?v=Gvkl4PJqqj"><link rel=icon type=image/png sizes=194x194 href="static/favicon-194x194.png?v=M4yPzROyvm"><link rel=icon type=image/png sizes=16x16 href="static/favicon-16x16.png?v=Gvkl4PJqqj"><link rel=manifest href="static/site.webmanifest?v=Gvkl4PJqqj"><link rel=mask-icon href="static/safari-pinned-tab.svg?v=Gvkl4PJqqj" color=#5bbad5><link rel="shortcut icon" href="static/favicon.ico?v=Gvkl4PJqqj"><meta name=msapplication-TileImage content="static/mstile-144x144.png?v=Gvkl4PJqqj"><meta name=apple-mobile-web-app-title content=ShutTheBox><meta name=apple-mobile-web-app-capable content=yes><meta name=mobile-web-app-capable content=yes><meta name=apple-mobile-web-app-status-bar-style content=default><meta name=application-name content=ShutTheBox><meta name=msapplication-TileColor content=#9f00a7><meta name=theme-color content=#ffffff><meta property=og:image content=static/android-chrome-256x256.png><meta property=og:image:width content=279><meta property=og:image:height content=279><meta property=og:title content="Shut The Box"><meta property=og:description content="Web App, base on the original shut the box but including a cube of tiles. Fun game to play and exercise your numbers."><meta property=og:url content=https://shutTheBox.co.uk><link href=static/apple-startup-1242x2148.png media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" rel=apple-touch-startup-image><link href=static/apple-startup-1182x2208.png media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" rel=apple-touch-startup-image><link href=static/apple-startup-750x1294.png media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel=apple-touch-startup-image><link href=static/apple-startup-640x1096.png media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel=apple-touch-startup-image><link href=static/apple-startup-640x920.png media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel=apple-touch-startup-image><link href=static/apple-startup-320x460.png media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" rel=apple-touch-startup-image><meta name=format-detection content="telephone=no"><title>Shut The Box</title><link href=static/css/app.7135d4cd2f6105dcffe9d349477dd4e6.css rel=stylesheet></head><body><div id=app></div><audio id=click src=static/click.mp3></audio><script>document.addEventListener('touchmove', function (event) {
-      if (event.scale !== 1) {
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><link rel=apple-touch-icon sizes=180x180 href="static/apple-touch-icon.png?v=Gvkl4PJqqj"><link rel=icon type=image/png sizes=32x32 href="static/favicon-32x32.png?v=Gvkl4PJqqj"><link rel=icon type=image/png sizes=194x194 href="static/favicon-194x194.png?v=M4yPzROyvm"><link rel=icon type=image/png sizes=16x16 href="static/favicon-16x16.png?v=Gvkl4PJqqj"><link rel=manifest href="static/site.webmanifest?v=Gvkl4PJqqj"><link rel=mask-icon href="static/safari-pinned-tab.svg?v=Gvkl4PJqqj" color=#5bbad5><link rel="shortcut icon" href="static/favicon.ico?v=Gvkl4PJqqj"><meta name=msapplication-TileImage content="static/mstile-144x144.png?v=Gvkl4PJqqj"><meta name=apple-mobile-web-app-title content=ShutTheBox><meta name=apple-mobile-web-app-capable content=yes><meta name=mobile-web-app-capable content=yes><meta name=apple-mobile-web-app-status-bar-style content=default><meta name=application-name content=ShutTheBox><meta name=msapplication-TileColor content=#9f00a7><meta name=theme-color content=#ffffff><meta property=og:image content=static/android-chrome-256x256.png><meta property=og:image:width content=279><meta property=og:image:height content=279><meta property=og:title content="Shut The Box"><meta property=og:description content="Web App, base on the original shut the box but including a cube of tiles. Fun game to play and exercise your numbers."><meta property=og:url content=https://shutTheBox.co.uk><link href=static/apple-startup-1242x2148.png media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)" rel=apple-touch-startup-image><link href=static/apple-startup-1182x2208.png media="(device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape)" rel=apple-touch-startup-image><link href=static/apple-startup-750x1294.png media="(device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2)" rel=apple-touch-startup-image><link href=static/apple-startup-640x1096.png media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" rel=apple-touch-startup-image><link href=static/apple-startup-640x920.png media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" rel=apple-touch-startup-image><link href=static/apple-startup-320x460.png media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" rel=apple-touch-startup-image><meta name=format-detection content="telephone=no"><title>Shut The Box</title><link href=static/css/app.68ac4670ceb05da19d136777906b5502.css rel=stylesheet></head><body><div id=app></div><audio id=click src=static/click.mp3></audio><script>if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+      document.addEventListener('touchmove', function (event) {
+        if (event.scale !== 1) {
+          event.preventDefault();
+        }
+      }, false);
+      var lastTouchEnd = 0;
+      document.addEventListener('touchend', function (event) {
+        var now = (new Date()).getTime();
+        if (now - lastTouchEnd <= 300) {
+          event.preventDefault();
+        }
+        lastTouchEnd = now;
+      }, false);
+      document.documentElement.addEventListener('touchmove', function (event) {
         event.preventDefault();
-      }
-    }, false);
-    var lastTouchEnd = 0;
-    document.addEventListener('touchend', function (event) {
-      var now = (new Date()).getTime();
-      if (now - lastTouchEnd <= 300) {
-        event.preventDefault();
-      }
-      lastTouchEnd = now;
-    }, false);
-    document.documentElement.addEventListener('touchmove', function (event) {
-      event.preventDefault();
-    }, false);</script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-116395322-1"></script><script>window.dataLayer = window.dataLayer || [];
+      }, false);
+    }</script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-116395322-1"></script><script>window.dataLayer = window.dataLayer || [];
 
     function gtag() {
       dataLayer.push(arguments);
@@ -68,4 +70,4 @@
               });
           }
         });
-      })();</script><script type=text/javascript src=static/js/manifest.37a2ecbb1d1b7e6c9ada.js></script><script type=text/javascript src=static/js/vendor.c8984f8bc187c43e1966.js></script><script type=text/javascript src=static/js/app.b9ae1d4bd296ff8f4858.js></script></body></html>
+      })();</script><script type=text/javascript src=static/js/manifest.37a2ecbb1d1b7e6c9ada.js></script><script type=text/javascript src=static/js/vendor.fdc1f2a8e8592d0cda70.js></script><script type=text/javascript src=static/js/app.37599ad65734af70b7f3.js></script></body></html>

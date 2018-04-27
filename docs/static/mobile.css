@@ -432,7 +432,7 @@
 }
 
 .header {
-  height: 60px;
+  height: 60px !important;
   background-color: #202428;
   position: fixed;
   left: 0px;
@@ -482,8 +482,9 @@
 
 .deploy-size {
   background-color: #393e3e;
-  width: 170px;
+  width: 134px;
   right: 20px;
+  padding-left:0; 
 }
 
 .deploy-options {
